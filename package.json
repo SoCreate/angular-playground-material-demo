@@ -8,7 +8,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "playground": "angular-playground",
+    "playground:build": "angular-playground --build",
+    "deploy": "sh ./scripts/deploy.sh"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +36,7 @@
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "angular-playground": "^3.4.0",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
