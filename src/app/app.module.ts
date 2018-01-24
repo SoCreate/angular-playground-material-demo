@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
+import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent
+    ButtonComponent,
+    ButtonToggleComponent
   ],
   imports: [
     BrowserModule
