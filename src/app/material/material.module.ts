@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
-import { MatButtonModule, MatIconModule, MatButtonToggleModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatButtonToggleModule, MatChipsModule, MatSelectModule, MatCheckboxModule } from '@angular/material';
 
 const COMPONENT_MODULES = [
   MatButtonModule,
   MatIconModule,
-  MatButtonToggleModule
-]
+  MatButtonToggleModule,
+  MatSelectModule,
+  MatCheckboxModule
+];
 
 @NgModule({
   imports: [
