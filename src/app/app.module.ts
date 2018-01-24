@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { SelectComponent } from './select/select.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SelectComponent } from './select/select.component';
     AppComponent,
     ButtonComponent,
     ButtonToggleComponent,
-    SelectComponent
+    SelectComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule
